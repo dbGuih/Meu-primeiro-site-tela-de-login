@@ -1,0 +1,70 @@
+/* Estilo do corpo da pagina */
+.body {
+    /*background-image: url("../background-image.png");
+    background-repeat: no-repeat; */
+    background-image: linear-gradient(to right, #ab0067, #6e1b4e);
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* DIV que esta servindo de base para o login */
+.base-login {
+    background-color: white;
+    border-radius: 20px;
+    width: 500px;
+    height: 300px;
+}
+
+/* Texto que fica no topo da DIV base de login */
+.titulo-login {
+    display: flex;
+    justify-content: center;
+    background-color: #dc0084;
+    color: white;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 0px;
+    border-radius: 20px 20px 0px 0px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+/* Formulario contento os componentes de login (Textos USUARIO e SENHA e os INPUTS) */
+.conteudo-login {
+    text-align: center;
+}
+
+/* Formulario contento os componentes de login (Textos USUARIO e SENHA e os INPUTS) */
+.conteudo-login form {
+    display: inline-block;
+}
+
+/* INPUT de usuario */
+.login-usuario {
+    height: 20px;
+    border-color: black; 
+}
+
+/* INPUT de senha */
+.login-password {
+    height: 20px;
+    border-color: black;
+}
+
+/* BOTAO de logar */
+.botao-logar {
+    background-color: #ff0099;
+    border: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 15px;
+    margin-top: 20px;
+    padding: 5px 15px 5px 15px;
+}
+
+
