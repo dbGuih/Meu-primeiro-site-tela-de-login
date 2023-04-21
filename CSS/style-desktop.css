@@ -39,20 +39,19 @@
 /* Formulario contento os componentes de login (Textos USUARIO e SENHA e os INPUTS) */
 .conteudo-login form {
     display: inline-block;
+    text-align: center;
 }
 
 /* INPUT de usuario */
 .login-usuario {
     height: 20px;
-    border-color: black; 
-    text-align: center;
+    border-color: black;  
 }
 
 /* INPUT de senha */
 .login-password {
     height: 20px;
     border-color: black;
-    text-align: center;
 }
 
 /* BOTAO de logar */
