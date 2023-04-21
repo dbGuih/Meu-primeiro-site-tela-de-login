@@ -1,4 +1,4 @@
 
 function clicado() {
-    alert("O evento do botão esta funcionando!");
+    alert("O evento do botão esta funcionando! #UPDATE");
 }
