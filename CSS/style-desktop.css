@@ -45,12 +45,14 @@
 .login-usuario {
     height: 20px;
     border-color: black; 
+    text-align: center;
 }
 
 /* INPUT de senha */
 .login-password {
     height: 20px;
     border-color: black;
+    text-align: center;
 }
 
 /* BOTAO de logar */
